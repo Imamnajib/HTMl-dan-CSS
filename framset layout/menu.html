@@ -1,0 +1,60 @@
+<!-- menu.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Menu</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #001f3f; /* Biru dongker full */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Tinggi full layar */
+        }
+
+        .menu {
+            background-color: #001f3f;
+            padding: 40px; /* Lebih besar */
+            text-align: center;
+            width: 100%;
+        }
+
+        .menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu ul li {
+            margin: 0 30px; /* Jarak antar menu */
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: #ffffff; /* Teks putih */
+            font-size: 48px; /* Teks super besar */
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .menu ul li a:hover {
+            color: #1e90ff; /* Biru muda saat hover */
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="profile.html" target="main">Home</a></li>
+            <li><a href="mystudy.html" target="main">My Study</a></li>
+            <li><a href="gallery.html" target="main">Gallery</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Foto</title>
+    <style>
+        body {
+            background-color: #001f3f; /* Biru dongker */
+            color: #ffffff; /* Teks putih */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .gallery {
+            margin: 20px 0;
+            padding: 10px;
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+            background-color: #002b5c;
+        }
+
+        .gallery img {
+            width: 300px; /* Ukuran gambar */
+            height: 200px;
+            margin: 0 20px; /* Jarak antar gambar */
+            border-radius: 10px; /* Membuat sudut gambar melengkung */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Galeri Foto</h1>
+
+    <div class="gallery">
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            <img src="najib gamis.jpg" alt="Foto 1">
+            <img src="najib sip .jpg" alt="Foto 2">
+        </marquee>
+    </div>
+</body>
+</html>

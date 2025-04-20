@@ -1,0 +1,58 @@
+
+.navbar {
+    height: 70px;
+}
+
+
+.logo {
+    height: 50px; 
+    width: 50px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.logo-container {
+    margin-right: 10px; 
+}
+
+.nav-text {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+
+.dropdown-menu {
+    text-align: center;
+}
+
+
+@media (max-width: 991px) {
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-collapse {
+        margin-top: 10px;
+    }
+}
+
+.carousel-item img {
+    max-height: 120px; /* Sesuaikan tinggi maksimal */
+    object-fit: cover; /* Agar gambar tetap proporsional */
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 500px) {
+    .carousel-item img {
+        max-height: 200px;
+    }
+}
+
+    
